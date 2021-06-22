@@ -541,7 +541,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing •••** here the song requested by {} via **𝙂𝙖𝙡𝙖𝙭𝙮𝙈𝙪𝙨𝙞𝙘** 😜".format(
+        caption="▶️ **Playing •••** here the song requested by {} via **QUEEN SONG** 😜".format(
         message.from_user.mention()
         ),
     )
@@ -654,9 +654,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯𝙂𝙖𝙡𝙖𝙭𝙮𝙈𝙪𝙨𝙞𝙘 •••✯= 📝𝙌𝙪𝙚𝙪𝙚𝙙 𝙖𝙩 𝙥𝙤𝙨𝙞𝙩𝙞𝙤𝙣 ••• {position}")
+        await res.edit_text(f"✯QUEEN MUSIC •••✯= 📝𝙌𝙪𝙚𝙪𝙚𝙙 𝙖𝙩 𝙥𝙤𝙨𝙞𝙩𝙞𝙤𝙣 ••• {position}")
     else:
-        await res.edit_text("✯𝙂𝙖𝙡𝙖𝙭𝙮𝙈𝙪𝙨𝙞𝙘 •••✯=▶️ Playing •••")
+        await res.edit_text("✯QUEEN MUSIC •••✯=▶️ Playing •••")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -781,12 +781,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯𝙂𝙖𝙡𝙖𝙭𝙮 𝙈𝙪𝙨𝙞𝙘✯=📝 𝙌𝙪𝙚𝙪𝙚𝙙 𝙖𝙩 𝙥𝙤𝙨𝙞𝙩𝙞𝙤𝙣 {position}",
+            caption=f"✯QUEEN MUSIC ✯=📝 𝙌𝙪𝙚𝙪𝙚𝙙 𝙖𝙩 𝙥𝙤𝙨𝙞𝙩𝙞𝙤𝙣 {position}",
         
         )           
            
     else:
-        await res.edit_text("✯𝙂𝙖𝙡𝙖𝙭𝙮 𝙈𝙪𝙨𝙞𝙘✯=▶️ 𝙋𝙡𝙖𝙮𝙞𝙣𝙜 •••")
+        await res.edit_text("✯QUEEN MUSIC ✯=▶️ 𝙋𝙡𝙖𝙮𝙞𝙣𝙜 •••")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
