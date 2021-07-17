@@ -2,7 +2,9 @@
 
 ### A bot that can play music on telegram group's voice call
 
-# Available on telegram as @GalaxyMusicPlaybot
+
+
+
 
 <p align="center">
   <img src="khttps://telegra.ph/file/dd0k4b1968f1bc1169d162.jpg">
